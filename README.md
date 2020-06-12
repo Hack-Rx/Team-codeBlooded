@@ -74,10 +74,7 @@ This process reduces unwanted hastle by reducing the time and effort that needs 
 
 ## Proposed Technology Stack 💻
 
-- MERN (MongoDB, Express.js, React, Node.js) Stack
 - Firebase/Firestore (Prototyping)
-- Azure
-- React Native
 - HTML, CSS, JavaScript
 
 ## Tools and APIs
@@ -86,6 +83,7 @@ This process reduces unwanted hastle by reducing the time and effort that needs 
 - Netlify (For Initial Testing)
 - DialogFlow by Google
 - LineIcons
+-Collect.chat
 
 ## Attributions
 
