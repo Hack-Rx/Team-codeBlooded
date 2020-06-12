@@ -74,8 +74,7 @@ This process reduces unwanted hastle by reducing the time and effort that needs 
 
 ## Proposed Technology Stack 💻
 
-- MERN (MongoDB, Express.js, React, Node.js) Stack
-- Firebase/Firestore (Prototyping)
+- Firebase/Firestore
 - Azure
 - React Native
 - HTML, CSS, JavaScript
@@ -103,4 +102,5 @@ TBA
 
 - [Aaishika S Bhattacharya](https://www.github.com/aaishikasb)
 - [Souharda Biswas](https://www.github.com/TheSouharda)
+- [Akash Ramjyothi](https://www.github.com/Akash-Ramjyothi)
 - [Gyanesh Samanta](https://www.github.com/Gyanesh-Samanta-123)
