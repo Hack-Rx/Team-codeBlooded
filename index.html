@@ -1,34 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="styles.css" />
 
 <body>
-    <!--Navbar-->
-    <div id="navbar_h"></div>
-    <!--Statistics-->
-    <div id="stats_h"></div>
-    <!--Main-->
-    <div id="main_h"></div>
-    <!--News-->
-    <div id="news_h"></div>
-    <!--Footer-->
-    <div id="footer_h"></div>
-    <!-- Load React. -->
-    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
-    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
-    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+    <nav class="navbar nav">
+        <div class="container">
+            <div class="navbar-brand">
+                <a class="navbar-item head has-text-white" href="">
+                    H <sup>+</sup>
+                </a>
+            </div>
 
-    <!-- Load our React component. -->
-    <script src="scripts/navbar_h.js"></script>
-    <script src="scripts/stats_h.js"></script>
-    <script src="scripts/main_h.js"></script>
-    <script src="scripts/news_h.js"></script>
-    <script src="scripts/footer_h.js"></script>
+            <div class="navbar-menu">
+                <div class="navbar-end">
+                    <a class="nav-new navbar-item">
+                        About
+                    </a>
+                    <a href="" class="nav-new navbar-item">
+                        Developers
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Navigation -->
+    <!--Grid-->
 </body>
 
 </html>
