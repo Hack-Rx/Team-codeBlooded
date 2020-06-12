@@ -14,40 +14,47 @@ Official Entry of Team codeBlooded, from SRM Institute of Science and Technology
 
 ## Background 📖
 
-As of 12th June, we have 298,283 Cases of COVID-19 reported in India, out of which 8,855 innocent people have lost their lives. Right now, as much as we require Healthcare Professionals giving their level best trying to save lives, we also require major technological advancements in the healthcare domain to overcome this situation caused by the Global Pandemic. Tracking probable suspects and Escalating investigation at this point of time seems to be the only way we can possibly flatten the curve and raise the line, by stopping further spread of Novel Coronavirus and helping those already affected recover at the earliest so we don't face more casualties. The Novel Coronavirus has four stages of transmission:
+As of 12th June 2020, there are 290,000+ cases of the novel Corona Virus reported in India, out of which  about 8,500 people have lost there lives, and the worse part is this number is still growing. 
+There are two ways to combat COVID-19, Flattening the curve, or raising the line. While flattening the curve is achieved by people being socially distant, raising the line is achieved by raising the capacity of healthcare facilities available. Our project, 'Covid tracking and Escalation' is based on the second aspect, i.e raising the line.
+ The Novel Coronavirus has four stages of transmission:
 - Stage 1: First Appearance
 - Stage 2: Local Transmission
 - Stage 3: Community Transmission
 - Stage 4: National Epidemic <br>
 
-India has entered *Stage 3*, and there isn't much that we can do, except try our level best and stop further spreading of this deadly virus.
+India as of today has entered *stage 3* and there still isn't any sign of vaccines or drugs. So the only way out currently is to stop further spread of this virus as much as we can.
+
 
 ## About Our Product 🔧
 ### What
-We at Team codeBlooded, propose a Web Application which is preventive, personalized and affordable, **HopeVid**, that serves the purpose of Tracking and Escalation of COVID Suspects based on inputs provided by individuals voluntarily. We do not store any essential data and Security of the system is our priority. HopeVid provides a minimalist Interface which is both informational and analytical. 
+ We the team, 'codeblooded', propose a Web-application which is preventive, personalized and most importantly affordable. Our app called, **'HopeVid'**, serves the purpose of tracking and escalation of people who might be COVID suspects based on the inputs provided by individuals. This is information is provided by the user voluntarily and stays safe within our database and is never shared with anyone. Wwe do not store any essential data, as Security of the system is our priority. The Web-app provides minimalist interface aimed at users from all age groups. 
 
-With our Product you can reach out to available doctors, book tests or report possible suspects while also being up to date with the number of active cases in the country and around you. We also have a separate section for users who wish to know more about Coronavirus, wherein we have embedded Informational YouTube Videos, News Sources and Quizzes amidst other things. We expand HopeVid to a Mobile Application which is nothing but a webview of our Web Application built in React Native.
+With our product, we implement two chatbots, one of them is designated to a pre screening of the patient which is done before assigning a doctor, and the other a 'mental health' chatbot, which is aimed to check the user's mood and provide them engaging and fun activities. 
+The second phase of the app is aimed at reaching out to available doctors, booking tests and provides news information about the current state of COVID around the world. It also implements a feature of 'reporting people' using which people can report probable COVID suspects.
+There's a third separate section in which we embed reliable information from sources as YouTube, News sources, and quizzes as the basic informational guide.
 
-We allow the user to **track** their health visually by synthesizing data in the form of Vitals taken during the User's conversation with our Chatbot.
+The HopeVid is expanded to a mobile application which is a webview of our web application and built using React Native.
+
+We also a 'tracking' feature for the user to track their health visually by synthesizing data in the form of vitals taken during the user's conversation with our chatbot.
 
 We also plan to have an in house Mental Assessment Quiz that will help the user stay happy and sane even when they are restricted to four walls.
 
 ### Why
-With HopeVid, we aim at providing a better interface so users can be aware about the situation. Due to restrictions in movement and the lockdown currently we are under, most people are unable to consult physicians or book tests. Our Product HopeVid comes at aid as it connects individuals with doctors and pathology labs functional in the zone so the user can avail these priviledges without having to step out of their houses. We can integrate DRx, LabRx, ActiveRx, and PharmRx to provide better service in future. We provide better UI/UX in a small storage space as we provide a simple WebView of our Web App in a React Native Application.
+With HopeVid, we aim at providing a simple interface so users from all age groups can use it, and can be aware about the situation. Due to restrictions in movement, and the lockdown that we are under, most people are unable to consult physicians/doctors or book tests. Our Product, HopeVid comes to aid as it connects individuals with doctors provides features as online pathology labs, which are functional in the zone so the user can avail these neccesities without having to step out of their houses. We would be able to integrate DRx, LabRx, ActiveRx, and PharmRx to provide better service in future. We provide simple and minimal UI/UX in a small storage space as we provide a simple WebView of our Web App in a React Native Application.
 
 ### How
-We have come up with STAE-C, which expands to Systematic Tracking and Escalation Checking for COVID. The Process Flow is in the following order:
-- First the User reports about symptoms while having a conversation with our Chatbot.
-- If the Chatbot confirms that the User is carrying significant symptoms, it refers the User to a Doctor.
-- Data fed to the chatbot (Health Vitals) is used for visual representation for better Tracking. 
-- The User can interact with the Doctor after booking an appointment and report about more symptoms and vital information.
-- If the Doctor confirms that the User might be a probable patient of COVID-19, the Doctor suggests required tests for confirmation.
-- HopeVid connects the User now to a Pathology Lab, wherein the User's sample can be taken for further evaluation.
-- If the test results come positive, details of the user are shared with authorities for a better escalation.
+We have come up with an idea, 'STAE-C', which expands to 'Systematic Tracking and Escalation Checking' for COVID-19. The Process Flow is in the following order:
+- First the User takes a screening test about symptoms while having a conversation with our Chatbot.
+- If the Chatbot predicts that the User might be carrying significant symptoms, it refers a Doctor to the User.
+- Data fed to the chatbot (Health Vitals) is used for visual representation for better analysis. 
+- The User can interact with the Doctor using a  after booking an appointment and report about more symptoms and vital information.
+- If the Doctor confirms that the User might be a probable patient of COVID-19, the Doctor suggests the required tests for confirmation.
+- HopeVid now helps connect the User to the Pathology Lab, wherein the User's sample can be taken for further evaluation.
+- If the test results come positive, details of the user are shared with designated authorities for a better escalation.
 
-The User's details like Address and Mobile Number are kept private. Only Name, Age, Area and other essential details are shared with the Doctor. Aforementioned details and the Email Address of the user are shared with the Pathology Lab to enable the User to view and connect with the Lab and vice versa. Only if the result is positive, all required details are shared with authorities.
+The User's personal details as Address or Mobile Number are kept private. Only Name, Age, gender and other essential details are shared with the Doctor. Aforementioned details and the Email Address of the user are shared with the Pathology Lab to enable the User to view and connect with the Lab and vice versa. Only if the result is positive, all required details are shared with authorities.
 
-This process reduces unwanted hastle by reducing the time and effort that needs to be put up by a user to test himself or herself for COVID. Users will be at ease to use the app irrespective of their age because of its simplicity and integration, all at one place, while boosting the efficiency in monitoring the situation.
+This process reduces unwanted hastle by reducing the time and effort that needs to be put up by a user to test himself or herself for COVID. Users will be at ease to use the app irrespective of their age because of its simplicity and integration, all at one place, while boosting the efficiency in monitoring the situation and people.
 
 ## Timeline ⏰
 
@@ -77,7 +84,7 @@ This process reduces unwanted hastle by reducing the time and effort that needs 
 
 - Bulma
 - Netlify (For Initial Testing)
-- DialogFlow
+- DialogFlow by Google
 
 ## Attributions
 
