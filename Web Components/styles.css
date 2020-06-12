@@ -1,0 +1,37 @@
+body {
+  font-family: "Open Sans";
+}
+.info {
+  display: flex;
+  justify-content: space-around;
+
+  align-items: center;
+}
+
+h1 {
+  font-size: 1em;
+  line-height: 0.9em;
+  font-weight: 600;
+  font-family: "Open Sans";
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
+}
+
+p {
+  font-weight: 500;
+}
+
+.img {
+  /* margin-left: 2.5em; */
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+i {
+  border-radius: 50%;
+  background-color: #51c1aa;
+  height: 1.5em;
+  width: 1.5em;
+}
