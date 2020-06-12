@@ -66,20 +66,7 @@ ol li:before {
 .li-text-large {
   font-size: 1.5em !important;
 }
-/* Navbar */
 
-.nav {
-  background-color: #603392;
+.cent {
+  text-align: center;
 }
-.head {
-  font-weight: 800;
-  font-size: 2em;
-}
-
-.nav-new:hover {
-  color: #603392;
-}
-
-.nav-new {
-  color: white;
-
