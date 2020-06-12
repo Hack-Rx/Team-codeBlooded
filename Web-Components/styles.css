@@ -98,3 +98,20 @@ ol li:before {
   padding: 0%;
   margin: auto;
 }
+
+/* News */
+
+.who {
+  font-size: 2em;
+  line-height: 0.9em;
+  font-weight: 600;
+  font-family: "Open Sans";
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
+}
+
+.read {
+  color: #603392;
+  font-weight: 800;
+  text-decoration: underline;
+}
