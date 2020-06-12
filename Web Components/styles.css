@@ -54,13 +54,17 @@ i {
   margin: 1em 0;
 }
 
-ol { counter-reset: item; }
-ol li { display: block; }
+ol {
+  counter-reset: item;
+}
+ol li {
+  display: block;
+}
 ol li:before {
-    content: counter(item) ". ";
-    counter-increment: item;
-    color: red;
-    font-weight: bold;
+  content: counter(item) ". ";
+  counter-increment: item;
+  color: red;
+  font-weight: bold;
 }
 
 .li-text-large {
@@ -69,4 +73,22 @@ ol li:before {
 
 .cent {
   text-align: center;
+}
+
+/* navbar */
+
+.nav {
+  background-color: #603392;
+}
+.head {
+  font-weight: 800;
+  font-size: 2em;
+}
+
+.nav-new:hover {
+  color: #603392;
+}
+
+.nav-new {
+  color: white;
 }
