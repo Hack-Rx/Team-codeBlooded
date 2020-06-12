@@ -27,17 +27,17 @@ India as of today has entered *stage 3* and there still isn't any sign of vaccin
 
 ## About Our Product 🔧
 ### What
- We the team, 'codeblooded', propose a Web-application which is preventive, personalized and most importantly affordable. Our app called, **'HopeVid'**, serves the purpose of tracking and escalation of people who might be COVID suspects based on the inputs provided by individuals. This is information is provided by the user voluntarily and stays safe within our database and is never shared with anyone. Wwe do not store any essential data, as Security of the system is our priority. The Web-app provides minimalist interface aimed at users from all age groups. 
+ We at team codeblooded, propose a Web-application which is preventive, personalized and most importantly affordable. Our web-app called, **'HopeVid'**, serves the purpose of tracking and escalation of people who might be COVID suspects based on the inputs provided by individuals. This information is provided by the user voluntarily and stays safe within our database. We do not store any essential data, as Security of the system is our priority. The WebApp provides minimalist interface aimed at users from all age groups. 
 
-With our product, we implement two chatbots, one of them is designated to a pre screening of the patient which is done before assigning a doctor, and the other a 'mental health' chatbot, which is aimed to check the user's mood and provide them engaging and fun activities. 
-The second phase of the app is aimed at reaching out to available doctors, booking tests and provides news information about the current state of COVID around the world. It also implements a feature of 'reporting people' using which people can report probable COVID suspects.
-There's a third separate section in which we embed reliable information from sources as YouTube, News sources, and quizzes as the basic informational guide.
+With our product, we implement two chatbots, one of them is designated for a pre screening of the patient which is done before assigning a doctor, and the other a 'Mental Health' Chatbot, which is aimed to check the User's mood and provide them engaging and fun activities. 
+The second phase of the WebApp is aimed at reaching out to available doctors, booking tests and provides news information about the current state of COVID around the world. It also implements a feature of 'reporting people' using which people can report probable COVID suspects.
+There's a third separate section in which we embed reliable information from sources such as YouTube, News Sources, and Quizzes as the basic informational guide.
 
-The HopeVid is expanded to a mobile application which is a webview of our web application and built using React Native.
+HopeVid is expanded to a mobile application which is a WebView of our WebApplication and is built using React Native.
 
-We also a 'tracking' feature for the user to track their health visually by synthesizing data in the form of vitals taken during the user's conversation with our chatbot.
+We also implement a 'tracking' feature for the User to track their health visually by synthesizing data in the form of vitals taken during the User's conversation with our Chatbot.
 
-We also plan to have an in house Mental Assessment Quiz that will help the user stay happy and sane even when they are restricted to four walls.
+We also plan to have an in house Mental Assessment Quiz that will help the User stay happy and sane even when they are restricted to four walls.
 
 ### Why
 With HopeVid, we aim at providing a simple interface so users from all age groups can use it, and can be aware about the situation. Due to restrictions in movement, and the lockdown that we are under, most people are unable to consult physicians/doctors or book tests. Our Product, HopeVid comes to aid as it connects individuals with doctors provides features as online pathology labs, which are functional in the zone so the user can avail these neccesities without having to step out of their houses. We would be able to integrate DRx, LabRx, ActiveRx, and PharmRx to provide better service in future. We provide simple and minimal UI/UX in a small storage space as we provide a simple WebView of our Web App in a React Native Application.
@@ -85,6 +85,7 @@ This process reduces unwanted hastle by reducing the time and effort that needs 
 - Bulma
 - Netlify (For Initial Testing)
 - DialogFlow by Google
+- LineIcons
 
 ## Attributions
 
@@ -101,6 +102,5 @@ TBA
 ## Collaborators 🤖
 
 - [Aaishika S Bhattacharya](https://www.github.com/aaishikasb)
-- [Akash Ramjyothi](https://www.github.com/akash-ramjyothi)
 - [Souharda Biswas](https://www.github.com/TheSouharda)
 - [Gyanesh Samanta](https://www.github.com/Gyanesh-Samanta-123)
