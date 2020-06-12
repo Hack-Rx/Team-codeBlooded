@@ -56,6 +56,10 @@ body {
       margin: auto;
   }
 
+  .w-60m {
+      width: 80% !important;
+  }
+
   .is-hope {
       background-color: #51c1aa;
       color: #fff;
