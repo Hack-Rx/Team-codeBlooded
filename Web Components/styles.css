@@ -35,3 +35,15 @@ i {
   height: 1.5em;
   width: 1.5em;
 }
+
+.f-right {
+  float: right;
+}
+
+.f-left {
+  float: left;
+}
+
+.subtitle-bold {
+  font-weight: 900 !important;
+}
