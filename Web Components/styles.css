@@ -47,3 +47,23 @@ i {
 .subtitle-bold {
   font-weight: 900 !important;
 }
+
+.subtitle-big {
+  font-weight: 900;
+  font-size: x-large;
+  margin: 1em 0;
+}
+
+ol { counter-reset: item; }
+ol li { display: block; }
+ol li:before {
+    content: counter(item) ". ";
+    counter-increment: item;
+    color: red;
+    font-weight: bold;
+}
+
+.li-text-large {
+  font-size: 1.5em !important;
+}
+
