@@ -15,7 +15,7 @@ Official Entry of Team codeBlooded, from SRM Institute of Science and Technology
 ## Background 📖
 
 As of 12th June 2020, there are 290,000+ cases of the novel Corona Virus reported in India, out of which  about 8,500 people have lost there lives, and the worse part is this number is still growing. 
-There are two ways to combat COVID-19, Flattening the curve, or raising the line. While flattening the curve is achieved by people being socially distant, raising the line is achieved by raising the capacity of healthcare facilities available. Our project, 'Covid tracking and Escalation' is based on the second aspect, i.e raising the line.
+There are two ways to combat COVID-19, Flattening the curve, or raising the line. While flattening the curve is achieved by people being socially distant, raising the line is achieved by raising the capacity of healthcare facilities available. Our Web Application is based on the second aspect, i.e raising the line.
  The Novel Coronavirus has four stages of transmission:
 - Stage 1: First Appearance
 - Stage 2: Local Transmission
