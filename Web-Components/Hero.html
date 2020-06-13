@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>HopeVid- Hero</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+
+  <link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body style="padding: 1em;">
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+
+ 
+
+<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyA-dR6Hq_DP2-8Zk7wWfwDAZcwwADlyXdk",
+    authDomain: "codeblooded-001.firebaseapp.com",
+    databaseURL: "https://codeblooded-001.firebaseio.com",
+    projectId: "codeblooded-001",
+    storageBucket: "codeblooded-001.appspot.com",
+    messagingSenderId: "547165605600",
+    appId: "1:547165605600:web:82647a010b09fe255a8a85",
+    measurementId: "G-JLLGWL0T50"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+  
+  <section class="side">
+    <div class="container">
+      <h1 class="title">Welcome, Admin.</h1>
+      <hr width="60%">
+      <!--Row-->
+      <!--Chatbot-->
+      <div class="tile is-ancestor">
+        <div class="tile is-parent side" onclick=window.location.replace("Chatbot.html");>
+          <article class="tile is-child box is-3-phone" style="border: 2px solid #603392;">
+            <div class="tile is-ancestor">
+              <div class="tile is-parent is-vertical-phone is-12">
+                <div class="tile is-child box" style="height: 90px;">
+                  <div class="">
+                    <div class="f-left">
+                      <h1 class="subtitle subtitle-bold" style="margin-bottom: 0;">Self Assessment</h1>
+                      <p>Talk to our chatbot!</p>
+                    </div>
+                    <div class="image f-right">
+                      <i class="img lni lni-32 lni-comments"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+      <!--Row-->
+      <div class="tile is-ancestor">
+        <!--Doctor-->
+        <div class="tile is-parent side" onclick=window.location.replace("https://festive-nightingale-1cc92e.netlify.app/");>
+          <article class="tile is-child box is-3-phone" style="border: 2px solid #603392;">
+            <div class="tile is-ancestor">
+              <div class="tile is-parent is-vertical-phone is-12">
+                <div class="tile is-child box"style="height: 90px;">
+                  <div class="">
+                    <div class="f-left">
+                      <h1 class="subtitle subtitle-bold" style="margin-bottom: 0;">Doctor</h1>
+                      <p>Schedule an Appointment</p>
+                    </div>
+                    <div class="image f-right">
+                      <i class="img lni lni-32 lni-capsule"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+        <!--Lab-->
+        <div class="tile is-parent side" onclick=window.location.replace("https://covid.icmr.org.in/index.php/testing-facilities");>
+          <article class="tile is-child box is-3-phone" style="border: 2px solid #603392;">
+            <div class="tile is-ancestor">
+              <div class="tile is-parent is-vertical-phone is-12">
+                <div class="tile is-child box"style="height: 90px;">
+                  <div class="">
+                    <div class="f-left">
+                      <h1 class="subtitle subtitle-bold" style="margin-bottom: 0;">Lab Test</h1>
+                      <p>Book a Test</p>
+                    </div>
+                    <div class="image f-right">
+                      <i class="img lni lni-32 lni-microscope"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+      <!--Row-->
+      <!--Timeline-->
+      <div class="tile is-ancestor">
+        <div class="tile is-parent side"onclick=window.location.replace("Timeline.html");>
+          <article class="tile is-child box is-3-phone" style="border: 2px solid #603392;">
+            <div class="tile is-ancestor">
+              <div class="tile is-parent is-vertical-phone is-12">
+                <div class="tile is-child box"style="height: 90px;">
+                  <div class="">
+                    <div class="f-left">
+                      <h1 class="subtitle subtitle-bold" style="margin-bottom: 0;">Timeline</h1>
+                      <p>Track your Records</p>
+                    </div>
+                    <div class="image f-right">
+                      <i class="img lni lni-32 lni-timer"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+      <!--Row-->
+      <div class="tile is-ancestor">
+        <!--About COVID-->
+        <div class="tile is-parent side" onclick=window.location.replace("About.html");>
+          <article class="tile is-child box is-3-phone" style="border: 2px solid #603392;">
+            <div class="tile is-ancestor">
+              <div class="tile is-parent is-vertical-phone is-12">
+                <div class="tile is-child box"style="height: 90px;">
+                  <div class="">
+                    <div class="f-left">
+                      <h1 class="subtitle subtitle-bold" style="margin-bottom: 0;">About COVID</h1>
+                      <p>Know more about the Pandemic</p>
+                    </div>
+                    <div class="image f-right">
+                      <i class="img lni lni-32 lni-checkmark-circle"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+        <!--Mental Health Assessment-->
+        <div class="tile is-parent side" onclick=window.location.replace("MHealth.html");>
+          <article class="tile is-child box is-3-phone" style="border: 2px solid #603392;">
+            <div class="tile is-ancestor">
+              <div class="tile is-parent is-vertical-phone is-12">
+                <div class="tile is-child box"style="height: 90px;">
+                  <div class="">
+                    <div class="f-left">
+                      <h1 class="subtitle subtitle-bold" style="margin-bottom: 0;">Mental Health Assessment</h1>
+                      <p>Be Physically and Mentally Healthy</p>
+                    </div>
+                    <div class="image f-right">
+                      <i class="img lni lni-32 lni-consulting"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>

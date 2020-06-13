@@ -1,0 +1,127 @@
+body {
+  font-family: "Open Sans";
+}
+.info {
+  display: flex;
+  justify-content: space-around;
+
+  align-items: center;
+}
+
+h1 {
+  font-size: 1em;
+  line-height: 0.9em;
+  font-weight: 600;
+  font-family: "Open Sans";
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
+}
+
+p {
+  font-weight: 500;
+}
+
+.img {
+  /* margin-left: 2.5em; */
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+i {
+  border-radius: 50%;
+  background-color: #51c1aa;
+  height: 1.5em;
+  width: 1.5em;
+}
+
+.f-right {
+  float: right;
+}
+
+.f-left {
+  float: left;
+}
+
+.subtitle-bold {
+  font-weight: 900 !important;
+}
+
+.subtitle-big {
+  font-weight: 900;
+  font-size: x-large;
+  margin: 1em 0;
+}
+
+ol {
+  counter-reset: item;
+}
+ol li {
+  display: block;
+}
+ol li:before {
+  content: counter(item) ". ";
+  counter-increment: item;
+  color: red;
+  font-weight: bold;
+}
+
+.li-text-large {
+  font-size: 1.5em !important;
+}
+
+.cent {
+  text-align: center;
+}
+
+/* navbar */
+
+.nav {
+  background-color: #603392;
+}
+.head {
+  font-weight: 800;
+  font-size: 2em;
+}
+
+.nav-new:hover {
+  color: #603392;
+}
+
+.nav-new {
+  color: white;
+}
+
+/* HopeVid */
+.cont {
+  padding: 0%;
+  margin: auto;
+}
+
+/* News */
+
+.who {
+  font-size: 2em;
+  line-height: 0.9em;
+  font-weight: 600;
+  font-family: "Open Sans";
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
+}
+
+.read {
+  color: #603392;
+  font-weight: 800;
+  text-decoration: underline;
+}
+
+.is-hope {
+  background-color: #51c1aa;
+  color: #fff;
+}
+
+.is-hope:hover {
+  background-color: #603392;
+  color: #fff;
+}

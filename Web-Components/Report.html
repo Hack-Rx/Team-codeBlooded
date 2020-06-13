@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HopeVid- Report</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+    <link href="log.css" rel="stylesheet">
+    <link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="logs.css" />
+</head>
+
+<body style="padding: 1em;">
+
+      <!-- The core Firebase JS SDK is always required and must be listed first -->
+
+ 
+
+<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-firestore.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyA-dR6Hq_DP2-8Zk7wWfwDAZcwwADlyXdk",
+    authDomain: "codeblooded-001.firebaseapp.com",
+    databaseURL: "https://codeblooded-001.firebaseio.com",
+    projectId: "codeblooded-001",
+    storageBucket: "codeblooded-001.appspot.com",
+    messagingSenderId: "547165605600",
+    appId: "1:547165605600:web:82647a010b09fe255a8a85",
+    measurementId: "G-JLLGWL0T50"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+
+  //make auth and firestore references
+  const auth = firebase.auth();
+  const db = firebase.firestore();
+
+  // update firestore settings
+  //db.settings({ timestampsInSnapshots: true });
+</script>
+
+    <section class="side">
+        <div class="container">
+            <h1 class="title">Report</h1>
+            <hr width="60%">
+            <div class="w-60m">
+                <div class="field">
+                    <p class="control has-icons-left has-icons-right">
+                        <input class="input" type="email" placeholder="Full Name">
+                        <span class="icon is-small is-left">
+                            <i class="lni lni-emoji-friendly"></i>
+                        </span>
+                        <span class="icon is-small is-right">
+                            <i class="fas fa-check"></i>
+                        </span>
+                    </p>
+                </div>
+                <div class="field">
+                    <p class="control has-icons-left">
+                        <input class="input" type="text" id="phonenumber" placeholder="Phone">
+                        <span class="icon is-small is-left">
+                            <i class="lni lni-phone"></i>
+                        </span>
+                    </p>
+                </div>
+                <div class="field">
+                    <p class="control has-icons-left">
+                        <input class="input" type="text" id="address" placeholder="Address">
+                        <span class="icon is-small is-left">
+                            <i class="lni lni-home"></i>
+                        </span>
+                    </p>
+                </div>
+                <div class="field cent">
+                    <p class="control has-icons-left has-icons-right">
+                        <input class="input" type="email" id="relation" placeholder="Relation">
+                        <span class="icon is-small is-left">
+                            <i class="lni lni-customer"></i>
+                        </span>
+                    </p>
+                </div>
+                <div class="field">
+                    <div class="control">
+                        <textarea class="textarea is-normal" id="anythingelse" placeholder="Anything Else?"></textarea>
+                    </div>
+                </div>
+                <div class="field">
+                    <h1 class="subtitle">By reporting, you follow our <a class="log-links">t&C</a>.</h1>
+                    <button class="button is-medium is-hope" onclick="reportSubmit()">Report</button>
+                    <button class="button is-medium is-hope" onclick="window.location.href='Hero.html'">Back</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>var fullname = document.getElementById("fullname");
+        var phonenumber = document.getElementById("phonenumber");
+        var address = document.getElementById("address");
+        var relation = document.getElementById("relation");
+        var anythingelse = document.getElementById("anythingelse");
+        </script>
+
+    <script src="reportStorage.js"></script>
+
+</body>
+
+</html>

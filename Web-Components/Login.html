@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HopeVid- Login</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+    <link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="log.css" />
+</head>
+
+<body style="padding: 1em;">
+
+      <!-- The core Firebase JS SDK is always required and must be listed first -->
+
+ 
+
+<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-firestore.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyA-dR6Hq_DP2-8Zk7wWfwDAZcwwADlyXdk",
+    authDomain: "codeblooded-001.firebaseapp.com",
+    databaseURL: "https://codeblooded-001.firebaseio.com",
+    projectId: "codeblooded-001",
+    storageBucket: "codeblooded-001.appspot.com",
+    messagingSenderId: "547165605600",
+    appId: "1:547165605600:web:82647a010b09fe255a8a85",
+    measurementId: "G-JLLGWL0T50"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+
+  //make auth and firestore references
+  const auth = firebase.auth();
+  const db = firebase.firestore();
+
+  // update firestore settings
+  //db.settings({ timestampsInSnapshots: true });
+</script>
+
+    <section class="side">
+        <div class="container cent">
+            <img src="assets/mask1.jpg" width="60%">
+            <h1 class="title" style="margin-top: 1em;">Welcome back! Sign in.</h1>
+            <!--Form-->
+            <form id="login-form"></form>
+            <div class="w-60 cent">
+                <div class="field cent">
+                    <p class="control has-icons-left has-icons-right">
+                        <input class="input" type="email" id="login-email" placeholder="Username/Email">
+                        <span class="icon is-small is-left">
+                            <i class="lni lni-emoji-friendly"></i>
+                        </span>
+                        <span class="icon is-small is-right">
+                            <i class="fas fa-check"></i>
+                        </span>
+                    </p>
+                </div>
+                <div class="field">
+                    <p class="control has-icons-left">
+                        <input class="input" type="password" id="login-password" placeholder="Password">
+                        <span class="icon is-small is-left">
+                            <i class="lni lni-lock"></i>
+                        </span>
+                    </p>
+                </div>
+                <div class="field">
+                    <h1 class="subtitle">Don't have an account? <a class="log-links" href="Register.html">Register</a>.</h1>
+                    <button class="button is-medium is-hope" onclick="window.location.href='Hero.html'">Sign In</button>
+                </div>
+            </div>
+            <!--Form Ends-->
+            </form>
+        </div>
+    </section>
+
+    <script src="loginAuth.js"></script>
+
+</body>
+
+</html>
