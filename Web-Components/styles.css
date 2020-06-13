@@ -115,3 +115,13 @@ ol li:before {
   font-weight: 800;
   text-decoration: underline;
 }
+
+.is-hope {
+  background-color: #51c1aa;
+  color: #fff;
+}
+
+.is-hope:hover {
+  background-color: #603392;
+  color: #fff;
+}

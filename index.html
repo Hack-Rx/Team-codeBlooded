@@ -4,11 +4,13 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Hello Bulma!</title>
+    <title>HopeVid</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
 
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="Web-Components/styles.css" />
+    <link rel="stylesheet" href="Web-Components/log.css">
+    </head>
 
 <body>
     <nav class="navbar nav">
@@ -21,7 +23,7 @@
 
             <div class="navbar-menu">
                 <div class="navbar-end">
-                    <a class="nav-new navbar-item">
+                    <a class="nav-new navbar-item" href="Web-Components/HopeVid.html">
                         About
                     </a>
                     <a href="" class="nav-new navbar-item">
@@ -33,6 +35,20 @@
     </nav>
     <!-- Navigation -->
     <!--Grid-->
+    <div class="columns">
+        <!--Grid 1-->
+        <div class="column is-one-fifth">
+            <iframe src="Web-Components/Statistics.html" width="100%" height="700" scrolling="no"></iframe>
+        </div>
+        <!--Grid 2-->
+        <div class="column">
+            <iframe src="Web-Components/Login.html" width="100%" height="800" scrolling="no"></iframe>
+        </div>
+        <!--Grid 3-->
+        <div class="column is-one-fifth">
+            <iframe src="Web-Components/News.html" width="100%" height="700" scrolling="no"></iframe>
+        </div>
+    </div>
 </body>
 
 </html>
