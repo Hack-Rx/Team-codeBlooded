@@ -10,20 +10,25 @@
 
     <link rel="stylesheet" href="Web-Components/styles.css" />
     <link rel="stylesheet" href="Web-Components/log.css">
+    <script>
+        function changeFrame(newPage){
+		document.getElementById('myframe').src = newPage + ".html";
+	  }
+    </script>
     </head>
 
 <body>
     <nav class="navbar nav">
         <div class="container">
             <div class="navbar-brand">
-                <a class="navbar-item head has-text-white" href="">
+                <a class="navbar-item head has-text-white" id="Hero" onClick="changeFrame(this.id)">
                     H <sup>+</sup>
                 </a>
             </div>
 
             <div class="navbar-menu">
                 <div class="navbar-end">
-                    <a class="nav-new navbar-item" href="Web-Components/HopeVid.html">
+                    <a class="nav-new navbar-item" href="Web-Components/HopeVid.html" id="myframe">
                         About
                     </a>
                     <a href="" class="nav-new navbar-item">
