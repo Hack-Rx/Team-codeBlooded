@@ -76,15 +76,19 @@ This process reduces unwanted hastle by reducing the time and effort that needs 
 
 - Firebase/Firestore
 - Azure
+- React
 - React Native
 - HTML, CSS, JavaScript
 
 ## Tools and APIs
 
 - Bulma
+- Bootstrap (ChatVid)
+- Materialize CSS (DocVid)
 - Netlify (For Initial Testing)
 - DialogFlow by Google
 - LineIcons
+- Font Awesome
 
 ## Attributions
 
@@ -92,11 +96,13 @@ This process reduces unwanted hastle by reducing the time and effort that needs 
 
 ## Use Cases 🤝
 
-TBA
+1. Reusable code that can be customized for other health hazards.
+2. Effective in dealing with the current situation.
 
 ## Future Upgrades 👀
 
-TBA
+1. Addition of AIML Models for Predication and Analysis
+2. Introduction of a Super Cheap Microcontroller based apparatus that can be used to measure health vitals of the user.
 
 ## Collaborators 🤖
 
