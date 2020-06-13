@@ -1,0 +1,24 @@
+.home2 {
+    /* background-color: #2F2FA2; */
+    height: 100%;
+    font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;
+}
+
+.card {
+    /* background-color: #2F2FA2; */
+}
+
+.btn {
+    background-color: #603392;
+    color: white;
+}
+
+.grad5 {
+    height: 15px;
+    background-image: linear-gradient(90deg, #C8EEFF, #0071A4);
+    border-radius: 10px;
+}
+
+.borde {
+    border: 2px solid #EDF6FF;
+}

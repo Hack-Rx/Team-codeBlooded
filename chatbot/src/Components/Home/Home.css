@@ -1,0 +1,107 @@
+.triangle-topleft {
+    width: 10px;
+    height: 10px;
+    border-top: 200px solid #437fc7;
+    border-right: 200px solid transparent;
+    margin-top: -10px;
+}
+
+.translate {
+    margin-top: -90px;
+}
+
+.Home {
+    font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;
+}
+
+.card {
+    max-width: 1000px;
+}
+
+.map {
+    width: 1500px;
+    height: 600px;
+}
+
+.semi-text {
+    font-size: 40px;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    text-align: center;
+    padding: 34px;
+    margin-top: -120px;
+}
+
+.btn {
+    background-color: #603392;
+    color: white;
+}
+
+.borde {
+    border: 2px solid #edf6ff;
+}
+
+.deve {
+    margin-top: -120px;
+    margin-bottom: 120px;
+    margin-left: 30px;
+    font-size: 10px;
+}
+
+.srm {
+    margin-top: -120px;
+    width: 117px;
+    height: 39px;
+    margin-bottom: 130px;
+}
+
+.ca {
+    margin-top: -40px;
+    max-width: 1000px;
+    border: 0;
+    position: fixed;
+}
+
+.progress {
+    width: 80%;
+    margin-top: -10px;
+}
+
+.grad4 {
+    height: 15px;
+    background-image: linear-gradient(90deg, #c8eeff, #0071a4);
+    border-radius: 10px;
+}
+
+
+/* .dropdown-menu{
+    width: 100%;
+    overflow: scroll;
+} */
+
+.margin {
+    margin-top: -70px;
+}
+
+.table {
+    background-image: linear-gradient(-125deg, #edf6ff, rgb(190, 212, 233));
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.element {
+    @include invisible;
+}
+
+.footer {
+    bottom: 0;
+}
+
+@media (max-width: 997px) {
+    .page {
+        overflow-x: scroll;
+    }
+}
